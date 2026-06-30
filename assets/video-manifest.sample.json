@@ -1,0 +1,91 @@
+{
+  "version": "2.0-rich-final",
+  "generatedAt": "2026-06-29T03:46:17Z",
+  "clipTargetMB": 18.5,
+  "videoWidth": 1280,
+  "videoHeight": 720,
+  "videoFPS": 15,
+  "videoCRF": "29-34",
+  "notes": "Section 2 now uses the full original source at 120 seconds. Section 4 is cropped to remove the meeting participant tile and black meeting areas.",
+  "clips": [
+    {
+      "sequence": 1,
+      "src": "assets/clips/01_aeo_geo_intelligence_part_001.mp4",
+      "chapter": "AEO + GEO Intelligence / Opportunity Engine",
+      "sourceOriginal": "Screen Recording 2026-06-04 at 12.11.10 PM 2.mov",
+      "sourceStartSeconds": 0,
+      "parentLabel": "01_aeo_geo_intelligence",
+      "part": 1,
+      "duration": 107.944,
+      "globalStart": 0.0,
+      "globalEnd": 107.944,
+      "narrationSegmentIds": [
+        "opening",
+        "aeo_geo",
+        "prompt_intelligence",
+        "opportunity_engine"
+      ],
+      "sizeMB": 1.79,
+      "processing": "normalized to 1280x720"
+    },
+    {
+      "sequence": 2,
+      "src": "assets/clips/02_lead_generation_part_001.mp4",
+      "chapter": "WarmLead AI / Lead Generation",
+      "sourceOriginal": "Screen Recording 2026-06-02 at 6.26.34 PM(1).mov",
+      "sourceStartSeconds": 0,
+      "parentLabel": "02_lead_generation",
+      "part": 1,
+      "duration": 119.867,
+      "globalStart": 107.944,
+      "globalEnd": 227.811,
+      "narrationSegmentIds": [
+        "lead_generation_overview",
+        "lead_signal_sources",
+        "lead_scoring_enrichment",
+        "lead_alerts_workflow",
+        "lead_crm_activation"
+      ],
+      "sizeMB": 2.97,
+      "processing": "full original preserved and slowed to 120 seconds for richer narration"
+    },
+    {
+      "sequence": 3,
+      "src": "assets/clips/03_autonomous_campaigns_syndication_part_001.mp4",
+      "chapter": "Autonomous Campaign Generation + Syndication",
+      "sourceOriginal": "Demo_ElevateOS 1.mp4",
+      "sourceStartSeconds": 0,
+      "parentLabel": "03_autonomous_campaigns_syndication",
+      "part": 1,
+      "duration": 74.933,
+      "globalStart": 227.811,
+      "globalEnd": 302.744,
+      "narrationSegmentIds": [
+        "campaign_generation",
+        "syndication"
+      ],
+      "sizeMB": 2.72,
+      "processing": "normalized to 1280x720 and padded to exact segment duration"
+    },
+    {
+      "sequence": 4,
+      "src": "assets/clips/04_data_monetization_part_001.mp4",
+      "chapter": "B2B Shipment Data Monetization",
+      "sourceOriginal": "de3mo-20260609_174126-Meeting Recording(1).mp4",
+      "sourceStartSeconds": 6.0,
+      "parentLabel": "04_data_monetization",
+      "part": 1,
+      "duration": 89.933,
+      "globalStart": 302.744,
+      "globalEnd": 392.678,
+      "narrationSegmentIds": [
+        "data_monetization_foundation",
+        "data_to_marketplace",
+        "data_commercial_model",
+        "close"
+      ],
+      "sizeMB": 3.2,
+      "processing": "cropped crop=1664:870:0:100 from t=6s, scaled/padded to 1280x720"
+    }
+  ]
+}
