@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movin Marketing Technology OS</title>
+  <meta name="description" content="Movin AI-powered marketing technology flow: AEO, GEO, lead generation, autonomous campaigns, syndication and data monetization." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">M</div>
+      <div>
+        <div class="brand-title">Movin</div>
+        <div class="brand-subtitle">Marketing Technology OS</div>
+      </div>
+    </div>
+    <div class="top-pill">AI Discovery → Revenue Monetization</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Choose the Movin growth capability you want to explore.</h1>
+        <p id="introCommentary" class="hero-text">Welcome to the Movin Marketing Technology OS. Choose an option to learn more about each growth layer.</p>
+        <div class="hero-actions">
+          <button id="pauseBtn" class="btn primary">Pause</button>
+          <button id="muteBtn" class="btn secondary">Mute</button>
+        </div>
+      </div>
+      <div class="hero-panel option-panel">
+        <p class="eyebrow compact">Choose a section</p>
+        <div id="sectionOptions" class="section-options" aria-label="Movin demo sections"></div>
+      </div>
+    </section>
+
+    <section class="demo-grid">
+      <div class="video-shell">
+        <div class="video-header">
+          <div>
+            <span class="live-dot"></span>
+            <span id="chapterLabel">Loading demo assets</span>
+          </div>
+          <div id="timeLabel">00:00 / 05:00</div>
+        </div>
+        <div id="introStage" class="intro-stage">
+          <p class="eyebrow compact">Intro commentary</p>
+          <h2>Select an option to learn more</h2>
+          <p>The opening commentary plays by itself. Choose a section whenever you are ready to open that walkthrough.</p>
+        </div>
+        <video id="demoVideo" class="is-hidden" playsinline preload="metadata"></video>
+        <audio id="introAudio" preload="auto"></audio>
+        <audio id="narrationAudio" preload="auto"></audio>
+        <div class="progress-wrap">
+          <div id="storyProgress" class="story-progress"></div>
+        </div>
+        <div id="assetNotice" class="asset-notice">
+Generated MP3 narration is required. Run <code>scripts/build_narration.py</code> to create <code>assets/generated/intro.mp3</code> and <code>assets/generated/narration.mp3</code>.
+        </div>
+      </div>
+
+      <aside class="transcript-shell">
+        <div class="transcript-header">
+          <div>
+            <h2>Words running with the video</h2>
+          </div>
+        </div>
+        <div id="transcript" class="transcript"></div>
+      </aside>
+    </section>
+
+
+    <section class="flow-board">
+      <div class="flow-card">
+        <span>01</span>
+        <h3>AEO + GEO</h3>
+        <p>Identify where Movin appears, gets cited and wins or loses AI answer visibility.</p>
+      </div>
+      <div class="flow-card">
+        <span>02</span>
+        <h3>Intent Graph</h3>
+        <p>Convert customer prompts into demand signals, content gaps and opportunity priorities.</p>
+      </div>
+      <div class="flow-card">
+        <span>03</span>
+        <h3>Warm Leads</h3>
+        <p>Detect expanding, hiring, shipping and procurement-ready accounts before outreach.</p>
+      </div>
+      <div class="flow-card">
+        <span>04</span>
+        <h3>Campaign Agents</h3>
+        <p>Autonomously generate audience, creative, budget, landing page and launch plan.</p>
+      </div>
+      <div class="flow-card">
+        <span>05</span>
+        <h3>Syndication</h3>
+        <p>Push assets into paid media, CRM, landing pages, sales sequences and WhatsApp nudges.</p>
+      </div>
+      <div class="flow-card">
+        <span>06</span>
+        <h3>Data Monetization</h3>
+        <p>Turn every shipment into a contextual commerce and marketplace signal.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Built for Movin leadership demo</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
